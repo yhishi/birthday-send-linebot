@@ -1,18 +1,6 @@
-# gas-clasp-templete2
+### LINE Bot 機能
+* スプレッドシートに名前、誕生日を記載
+* グループLINEに招待して、個人アカウントでメッセージ送信して、ログに記載されたgroupId取得
+* `pushLineBot`関数の`to`プロパティにgroupIdを設定
 
-## Getting Started
-### Clone the repository
-```
-git clone https://github.com/yhishi/gas-clasp-templete2.git <project_name>
-```
-### Set up
-```
-cd <project_name>
-npm install
-clasp create "Script Name" --rootDir ./dist
-```
-
-## Build & Push
-```
-npm run build
-```
+※三人以上のトークルームとグループは別物であり、トークルームではgroupIdは取得できないので注意。
